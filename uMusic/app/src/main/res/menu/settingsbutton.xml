@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- "Mark Favorite", should appear as action button if possible -->
+
+    <item android:id="@+id/my_account"
+        android:icon="@mipmap/ic_person_black_24dp"
+        android:title="My Account"
+        />
+
+    <item android:id="@+id/my_playlist"
+        android:icon="@mipmap/ic_playlist_play_black_24dp"
+        android:title="Playlists"
+        />
+    <item android:id="@+id/all_music"
+        android:icon="@mipmap/ic_library_music_black_24dp"
+        android:title="Music"
+        />
+    <item android:id="@+id/transfer_files"
+        android:icon="@mipmap/ic_cloud_upload_black_24dp"
+        android:title="Upload"
+        />
+    <item android:id="@+id/download_files"
+        android:icon="@mipmap/ic_cloud_download_black_24dp"
+        android:title="Downloads"
+        />
+    <item android:id="@+id/settings"
+        android:icon="@mipmap/ic_settings_black_24dp"
+        android:title="Settings"
+        />
+    <item android:id="@+id/about"
+        android:icon="@mipmap/info"
+        android:title="About"
+        />
+
+</menu>
